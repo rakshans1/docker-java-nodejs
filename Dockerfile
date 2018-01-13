@@ -1,4 +1,4 @@
-FROM rakshans1/android
+FROM rakshans1/java
 
 LABEL MAINTAINER="Rakshan Shetty <shetty.raxx555@gmail.com>"
 
