@@ -1,0 +1,9 @@
+
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t rakshans1/java-nodejs .
+  - docker run rakshans1/java-nodejs /bin/sh -c "java -version && node -v && npm -v"
